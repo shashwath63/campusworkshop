@@ -68,7 +68,7 @@ def remove_task_by_id(task_id: int) -> None:
         cursor.close()
     except:
         print("test")
-
+     
 
 def fetch_max_id() -> int:
     try:
